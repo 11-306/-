@@ -39,7 +39,7 @@ public class Queue {
             while (cur.next != null){
                 cur = cur.next;
             }
-            if(size>= capacity){
+            if(size > capacity){
                 pop();
             }
             cur.next = newData;
